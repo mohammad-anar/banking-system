@@ -9,7 +9,7 @@ document.getElementById('submut-btn').addEventListener('click', () => {
     const password = document.getElementById('input-password').value;
 
     if (email === 'anarul@gmail.com' && password === 'anarul00') {
-        location = 'bank.html';
+        location = 'http://127.0.0.1:5500/main/bank.html';
     }else{
         alert('Email or password not match');
     }
